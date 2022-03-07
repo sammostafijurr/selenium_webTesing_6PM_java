@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/Deadpool/IdeaProjects/Demo_Java_Web_Bikroy-master/testng.xml(failed)">
+    <classes>
+      <class name="Tests.CustomerServiceTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="forgetpassword"/>
+          <include name="Info"/>
+          <include name="shippingRate"/>
+          <include name="quitDriver"/>
+          <include name="FaQ"/>
+          <include name="ReturnPolisy"/>
+          <include name="AboutProposition"/>
+        </methods>
+      </class> <!-- Tests.CustomerServiceTest -->
+      <class name="Tests.FindUsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="Instagram"/>
+          <include name="FB"/>
+          <include name="Pinterst"/>
+          <include name="quitDriver"/>
+          <include name="Twitter"/>
+          <include name="Youtube"/>
+        </methods>
+      </class> <!-- Tests.FindUsTest -->
+      <class name="Tests.InformationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="coupuns"/>
+          <include name="siteMap"/>
+          <include name="quitDriver"/>
+          <include name="AboutBTN"/>
+        </methods>
+      </class> <!-- Tests.InformationTest -->
+      <class name="Tests.MiddlePartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ShopSneker"/>
+          <include name="Shopnow"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- Tests.MiddlePartTest -->
+    </classes>
+  </test> <!-- C:/Users/Deadpool/IdeaProjects/Demo_Java_Web_Bikroy-master/testng.xml(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

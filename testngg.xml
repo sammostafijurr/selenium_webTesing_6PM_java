@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Deadpool/IdeaProjects/Demo_Java_Web_Bikroy-master/testng.xml">
+        <classes>
+            <class name="Tests.SignInTest"/>
+            <class name="Tests.MyAccountTest"/>
+            <class name="Tests.SearchTest"/>
+            <class name="Tests.TopBarTest"/>
+            <class name="Tests.MiddlePartTest">
+                <methods>
+                    <include name="setUp"/>
+                    <include name="ShopBabeBar"/>
+                    <include name="ShopSneker"/>
+                    <include name="Shopnow"/>
+                    <include name="ShopKolaburaBar"/>
+                    <include name="ShopRoss"/>
+                    <include name="ShopSteveBar"/>
+                    <include name="quitDriver"/>
+                    <include name="ShopSandlebar"/>
+                </methods>
+            </class>
+            <class name="Tests.CustomerServiceTest"/>
+            <class name="Tests.InformationTest"/>
+            <class name="Tests.FindUsTest"/>
+
+
+        </classes>
+
+    </test>
+</suite>
